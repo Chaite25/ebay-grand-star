@@ -109,7 +109,7 @@ img {
 
 #navbar ul {
     display: inline-flex;
-    margin: 18px 0;
+    margin: 36px 0;
 }
 
 #navbar ul li {
@@ -534,7 +534,11 @@ img {
 
 /***** medium Layout *****/
 
-@media (min-width: 992px) and (max-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1200px) {
+    #navbar ul {
+        margin: 24px 0;
+    }
+}
 
 /***** Tablet Layout *****/
 
